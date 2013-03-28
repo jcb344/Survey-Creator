@@ -41,6 +41,7 @@
     [surveyPrompt setStringValue:@""];
     [table reloadData];
     
+    
 }
 
 -(IBAction)open:(id)sender{
