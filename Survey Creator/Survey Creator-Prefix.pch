@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Survey Creator' target in the 'Survey Creator' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
