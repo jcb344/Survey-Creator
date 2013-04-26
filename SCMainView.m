@@ -17,7 +17,7 @@
     }
     if ([radioButtons selectedColumn] == 0) {
         if ([answerArray count] > 0) {
-            NSDictionary *question = [NSDictionary dictionaryWithObjectsAndKeys:[promptField stringValue],@"prompt",[self typeForIndex:[radioButtons selectedColumn]],@"type",answerArray,@"choices", nil];
+            NSDictionary *question = [NSDictionary dictionaryWithObjectsAndKeys:[promptField stringValue],@"prompt",[self typeForIndex:[radioButtons selectedColumn]],@"type",[answerArray copy],@"choices", nil];
             [questions addObject:question];
         }
     }
